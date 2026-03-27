@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Redirecting to Artha...</title></head>
+<body>
+<script>
+  window.location.replace("tradeai://kite-callback" + window.location.search);
+</script>
+<p>Redirecting back to Artha... 
+  <a id="link">Tap here if not redirected.</a>
+</p>
+<script>
+  document.getElementById("link").href = "tradeai://kite-callback" + window.location.search;
+</script>
+</body>
+</html>
